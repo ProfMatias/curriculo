@@ -121,7 +121,7 @@ button {
     flex: 1;
 }
 
-/* Ajuste para telas pequenas */
+/* Ajuste para telas pequenas 
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
@@ -130,7 +130,7 @@ button {
     .profile-photo {
         margin-bottom: 15px;
     }
-}
+}*/
 /* Rodapé */
 footer {
   text-align: center;
