@@ -114,7 +114,7 @@ button {
     height: 300px;
     border-radius: 50%; /* Foto redonda */
     object-fit: cover; /* Garante que a imagem não fique distorcida */
-    border: 3px solid #fff; /* Borda branca (opcional) */
+    border: 3px solid #000; /* Borda branca (opcional) */
 }
 
 .header-text {
