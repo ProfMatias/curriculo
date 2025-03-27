@@ -22,13 +22,13 @@ h1, h2, h3 {
   padding: 20px 0;
 }
 
-/* Cabeçalho */
+/* Cabeçalho 
 header {
   background: #2A5C82;
   color: white;
   text-align: center;
   padding: 2rem 0;
-}
+}*/
 
 header nav ul {
   display: flex;
