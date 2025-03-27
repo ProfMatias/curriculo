@@ -110,11 +110,11 @@ button {
 }
 
 .profile-photo {
-    width: 300px; /* Ajuste o tamanho conforme necessário */
-    height: 300px;
-    border-radius: 10%; /* Foto redonda */
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px;
+    border-radius: 50%; /* Foto redonda */
     object-fit: cover; /* Garante que a imagem não fique distorcida */
-    border: 3px solid #000; /* Borda branca (opcional) */
+    border: 3px solid #fff; /* Borda branca (opcional) */
 }
 
 .header-text {
