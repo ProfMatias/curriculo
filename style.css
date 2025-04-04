@@ -22,7 +22,7 @@ h1, h2, h3 {
   padding: 20px 0;
 }
 
-/* Cabeçalho 
+ 
 header {
   background: #2A5C82;
   color: white;
@@ -42,7 +42,7 @@ header nav ul li a {
   margin: 0 15px;
   text-decoration: none;
 }
-*/
+
 /* Seções */
 .section {
   padding: 4rem 0;
