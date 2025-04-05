@@ -24,10 +24,34 @@ h1, h2, h3 {
 
  
 header {
-  background: #2A5C82;
+  /*background: #2A5C82;
   color: white;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0;*/
+
+    /*background: url("/fundoCabeçalho.png");
+    opacity: 0.5;
+    background-size: cover; /* Faz a imagem cobrir todo o cabeçalho */
+   /* padding: 20px;
+    color: black; */ /* Cor do texto para contraste */
+    
+      position: relative; /* Necessário para o pseudo-elemento */
+      color: white; /* Cor do texto (ajuste conforme necessário) */
+  
+  
+  ::before {
+      content: "";
+      background: url("fundo-mat2.png");
+      background-size: cover;
+      opacity: 10; /* Transparência apenas da imagem */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Envia para trás do conteúdo */
+  }
+  
 }
 
 header nav ul {
@@ -110,8 +134,8 @@ button {
 }
 
 .profile-photo {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100px;
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px;
     border-radius: 50%; /* Foto redonda */
     object-fit: cover; /* Garante que a imagem não fique distorcida */
     border: 3px solid #fff; /* Borda branca (opcional) */
