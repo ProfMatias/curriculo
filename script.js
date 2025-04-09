@@ -14,7 +14,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
   alert('Mensagem enviada! Entrarei em contato em breve.');
   this.reset();
 });*/
-document.getElementById("meuFormulario").addEventListener("submit", async (e) => {
+/*document.getElementById("meuFormulario").addEventListener("submit", async (e) => {
   e.preventDefault();
   const statusMensagem = document.getElementById("status-mensagem");
   statusMensagem.textContent = "Enviando...";
@@ -38,5 +38,5 @@ document.getElementById("meuFormulario").addEventListener("submit", async (e) =>
     e.target.reset();
   } else {
     statusMensagem.textContent = "Erro ao enviar. Tente novamente.";
-  }
+  }*/
 });
