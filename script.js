@@ -8,13 +8,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Simulação de envio de formulário
+/* Simulação de envio de formulário
 document.querySelector('form').addEventListener('submit', function(e) {
   e.preventDefault();
   alert('Mensagem enviada! Entrarei em contato em breve.');
   this.reset();
-});
-
+});*/
 document.getElementById("meuFormulario").addEventListener("submit", async (e) => {
   e.preventDefault();
   const statusMensagem = document.getElementById("status-mensagem");
