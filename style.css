@@ -41,7 +41,7 @@ header {
   
   ::before {
       content: "";
-      background: url("fundo-mat2.png");
+      background: url("fundo-mat3.png");
       background-size: cover;
       opacity: 10; /* Transparência apenas da imagem */
       position: absolute;
