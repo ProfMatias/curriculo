@@ -40,3 +40,15 @@ document.querySelector('form').addEventListener('submit', function(e) {
     statusMensagem.textContent = "Erro ao enviar. Tente novamente.";
   }*/
 });
+ // Script para mostrar/esconder o portfólio
+        document.getElementById('portfolioToggle').addEventListener('click', function() {
+            const options = document.getElementById('portfolioOptions');
+            options.classList.toggle('active');
+            
+            // Muda o ícone de seta
+            if (options.classList.contains('active')) {
+                this.innerHTML = 'Portfólio ▲';
+            } else {
+                this.innerHTML = 'Portfólio ▼';
+            }
+        });
