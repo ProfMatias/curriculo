@@ -62,6 +62,49 @@ nav a {
 nav a:hover {
     color: #3498db;
 }
+.sobre-mim {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .destaque {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .destaque-engenharia {
+            color: #3498db;
+        }
+        
+        .destaque-educacao {
+            color: #e74c3c;
+        }
+        
+        .destaque-tecnologia {
+            color: #9b59b6;
+        }
+        
+        .diferenciais {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .diferenciais li {
+            margin-bottom: 8px;
+        }
+        
+        .missao {
+            font-style: italic;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            margin-top: 20px;
+        }
 
 /* Portfólio */
 .portfolio-toggle {
