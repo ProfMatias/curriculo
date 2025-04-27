@@ -132,6 +132,20 @@ No fundo, acredito que aprender deve ser mão na massa. Por isso, sempre trago e
                 </div>
             </div>
         </div>
+         <script>
+        // Script para mostrar/esconder o portfólio
+        document.getElementById('portfolioToggle').addEventListener('click', function() {
+            const options = document.getElementById('portfolioOptions');
+            options.classList.toggle('active');
+            
+            // Muda o ícone de seta
+            if (options.classList.contains('active')) {
+                this.innerHTML = 'Portfólio ▲';
+            } else {
+                this.innerHTML = 'Portfólio ▼';
+            }
+        });
+    </script>
     </section>*/
  <!-- Seção Portfólio (modificada) -->
     <section id="portfolio" class="section">
